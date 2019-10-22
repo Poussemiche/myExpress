@@ -1,0 +1,17 @@
+{
+  "name": "my_express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@types/node": "^12.11.2",
+    "nodemon": "^1.19.4",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.6.4"
+  }
+}
